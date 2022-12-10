@@ -4,11 +4,12 @@
 
 #include <stdio.h>
 
-/* main - prints if number is positie or negative */
+/**
+ * main - Entry point prints if number is positive, negative or zero
+ *
+ * Return: Always 0
+ */
 
-
-
-/* Return: 0 Always */
 
 int main(void)
 
