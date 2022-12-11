@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-/** 
- * main - prints alphabet in reverse order
- * Return: Always 0
+/**
+ *main - prints alphabet in reverse order
+ *Return: Always 0
  */
 
 int main(void)
 {
 	int i;
 
-	for(i = 'z'; i >= 'a'; i--)
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
 	}
