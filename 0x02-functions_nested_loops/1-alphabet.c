@@ -2,11 +2,11 @@
 
 /**
  * main - prints alphabet in lowercase
- * Return: Always 0
  */
 
-void print_alphabet(void)  /* Function prints lowercase alphabet */ 
+void print_alphabet(void)
 {
+
 	char la;
 
 	for (la = 'a'; la <= 'z'; la++)
@@ -14,7 +14,4 @@ void print_alphabet(void)  /* Function prints lowercase alphabet */
 
 	_putchar('\n');
 	
-}
-
-
-		
+}		
