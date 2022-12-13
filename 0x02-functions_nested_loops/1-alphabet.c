@@ -5,11 +5,11 @@
  * Return: Always 0
  */
 
-void print_alphabet(void)
+void print_alphabet(void) /* prints lowercase alphabet */
 {
 	char la;
 
-	for (la = 'a'; la<= 'z'; la++)
+	for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
 
 	_putchar('\n');
