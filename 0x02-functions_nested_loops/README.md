@@ -1,1 +1,1 @@
-nested while loops in C
+nested loops in c
