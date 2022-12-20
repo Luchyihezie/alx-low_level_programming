@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * puts_half - a function that prints half a string
  * if odd len, n = (length_of_the_string - 1) / 2
@@ -16,7 +16,7 @@ void puts_half(char *str)
 		longi++;
 	n = (longi / 2);
 
-	if ((long % 2) == 1)
+	if ((longi % 2) == 1)
 	{
 		n = ((longi + 1) / 2);
 	}
@@ -25,5 +25,5 @@ void puts_half(char *str)
 	{
 		_putchar(str[a]);
 	}
-	_ptchar('\n');
+	_putchar('\n');
 }
