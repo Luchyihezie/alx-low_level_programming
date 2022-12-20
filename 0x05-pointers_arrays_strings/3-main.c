@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
+ * main - check code
  *
- * main - check the code
- *
- *   
- *
- * Return: Always 0.
- *
+ * Return : Always 0
  */
 
 int main(void)
@@ -16,7 +12,7 @@ int main(void)
 
 	    char *str;
 
-	    str = " I do not fear computers. I fear the lack of them - Isacc Asimov";
+	    str = " I do not fear computers. I fear the lack of them - Isaac Asimov";
 	    _puts(str);
 
 	    return (0);
